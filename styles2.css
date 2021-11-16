@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Greek House Symbolized";
+}
+.botao{
+    background-color: rgb(124, 25, 25);
+    transition: all 0.25s ease-in-out;
+}
+
+
+h1 { 
+    border-radius: 0px;
+    color: rgb(0, 0, 0);
+    top: 50%;
+    left: 50%;
+    text-align: center;
+}
+h3 { 
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+}
+
+button{
+    padding: 5px 10px;
+    border: 0;
+    border-radius: 5px;
+    color: white; 
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: 300;
+    margin: 0 10px;
+}
+
+div.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 90vw;
+    text-align: center;
+}
